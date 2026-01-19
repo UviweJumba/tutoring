@@ -23,6 +23,12 @@
       "description": "A person writing complex formulas on a chalkboard.",
       "imageUrl": "https://images.unsplash.com/photo-1758685733866-72944ff492e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGFsa2JvYXJkJTIwZm9ybXVsYXxlbnwwfHx8fDE3Njg4MjU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chalkboard formula"
+    },
+    {
+      "id": "founder-portrait",
+      "description": "Portrait of the founder.",
+      "imageUrl": "https://images.unsplash.com/photo-1593628525442-f94a810619e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMHBlcnNvbnxlbnwwfHx8fDE3Njg3NjQ2MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait person"
     }
   ]
 }
