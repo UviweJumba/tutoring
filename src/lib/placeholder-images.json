@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "differential-calculus",
+      "description": "Abstract visualization of calculus curves.",
+      "imageUrl": "https://images.unsplash.com/photo-1605362001336-f91645086f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMGN1cnZlfGVufDB8fHx8MTc2ODgyNTc3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract curve"
+    },
+    {
+      "id": "integral-calculus",
+      "description": "Geometric shapes forming a whole.",
+      "imageUrl": "https://images.unsplash.com/photo-1454117096348-e4abbeba002c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnZW9tZXRyaWMlMjBzaGFwZXN8ZW58MHx8fHwxNzY4NzEzNDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geometric shapes"
+    },
+    {
+      "id": "linear-algebra",
+      "description": "Grid of data points or matrix visualization.",
+      "imageUrl": "https://images.unsplash.com/photo-1766898588916-71f3f68f60ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwZ3JpZHxlbnwwfHx8fDE3Njg3NjE4MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data grid"
+    },
+    {
+      "id": "about-method",
+      "description": "A person writing complex formulas on a chalkboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685733866-72944ff492e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGFsa2JvYXJkJTIwZm9ybXVsYXxlbnwwfHx8fDE3Njg4MjU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chalkboard formula"
+    }
+  ]
 }
