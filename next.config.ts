@@ -2,12 +2,19 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export', // ← CRITICAL: Enables static export for GitHub Pages
+  basePath: process.env.NODE_ENV === 'production' ? '/tutoring' : '', // ← Adjust with your repo name
+  trailingSlash: true,
+
   typescript: {
     ignoreBuildErrors: true,
   },
+
   eslint: {
     ignoreDuringBuilds: true,
   },
+
+
   images: {
     remotePatterns: [
       {
