@@ -36,27 +36,22 @@ export default function AboutPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight">From the Founder</h2>
           </div>
-          <div className="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
-            <div className="md:col-span-1 flex justify-center">
-              {founderImage && (
-                <div className="relative w-48 h-48">
-                    <Image
-                      src={founderImage.imageUrl}
-                      alt={founderImage.description}
-                      width={400}
-                      height={400}
-                      data-ai-hint={founderImage.imageHint}
-                      className="rounded-full object-cover"
-                    />
-                </div>
-              )}
-            </div>
-            <div className="md:col-span-2">
-              <blockquote className="text-lg text-muted-foreground border-l-4 border-primary pl-6 italic">
-                "I started ModuleMastery with a single goal: to make learning complex subjects accessible and intuitive for everyone. After years of struggling with traditional methods, I knew there had to be a better way. Our module-based approach is the result of that journey, designed to build confidence and true understanding, one concept at a time."
-              </blockquote>
-              <p className="mt-4 font-semibold text-right text-foreground">
-                - Alex Doe, Founder of ModuleMastery
+          <div className="mt-12 max-w-3xl mx-auto flex flex-col items-center text-center">
+            {founderImage && (
+              <div className="relative w-48 h-48 mb-8">
+                  <Image
+                    src={founderImage.imageUrl}
+                    alt={founderImage.description}
+                    width={400}
+                    height={400}
+                    data-ai-hint={founderImage.imageHint}
+                    className="rounded-full object-cover"
+                  />
+              </div>
+            )}
+            <div className="text-lg text-muted-foreground">
+              <p>
+                [Your founder bio goes here. Write a few paragraphs about your background, your passion for teaching, and what inspired you to create this platform.]
               </p>
             </div>
           </div>

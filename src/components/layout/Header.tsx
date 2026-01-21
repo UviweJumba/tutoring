@@ -17,7 +17,6 @@ export default function Header() {
         <div className="mr-6 flex items-center">
           <Link href="/" className="flex items-center gap-2 font-bold">
             <BookOpenCheck className="h-6 w-6 text-primary" />
-            <span className="text-lg">ModuleMastery</span>
           </Link>
         </div>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
@@ -47,7 +46,6 @@ export default function Header() {
                 <div className="flex flex-col gap-6 pt-8">
                   <Link href="/" className="flex items-center gap-2 font-bold text-lg">
                     <BookOpenCheck className="h-6 w-6 text-primary" />
-                    <span>ModuleMastery</span>
                   </Link>
                   <nav className="flex flex-col gap-4 text-lg">
                     {navLinks.map((link) => (

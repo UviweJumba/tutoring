@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'ModuleMastery - Structured Online Learning',
+  title: 'Structured Online Learning',
   description: 'Master complex subjects with our structured, module-by-module online courses.',
 };
 
